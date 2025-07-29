@@ -49,6 +49,11 @@ function respond(message) {
 
   if (message.includes("who made you") || message.includes("developer")) {
     response = `I was developed by Phuti Matooane using HTML, CSS, and JavaScript. <a href="https://phutza.github.io/My-portfolio/" target="_blank">Visit my portfolio</a>`;
+  } else if (
+    message.includes("tell me about your developer") ||
+    message.includes("about your developer")
+  ) {
+    response = `Phuti Matooane is a 26-year-old developer who loves to code. He invented this bot and has worked on many other projects. He grew up in Sebokeng, Zone 7, attended Tlholo Primary School, and completed his matric at Kgokare Secondary School. 💻🔥`;
   } else if (["hello", "hi", "hey"].some(w => message.includes(w))) {
     response = "Hey there! 👋 How can I assist you today?";
   } else if (message.includes("how are you")) {
