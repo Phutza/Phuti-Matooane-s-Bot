@@ -78,8 +78,8 @@ function respond(message) {
     response = "I'm not connected to the internet yet, so I can't fetch real-time weather 🌧️. Maybe in a future update!";
   } else if (message.includes("language")) {
     response = "I'm built using HTML, CSS, and JavaScript!";
-    else if (message.include("Where is your developer from")){
-    response = "Phuti Matooane is a 25 year old developer who grew up in the dusty streets of Sebokeng in a township called zone 7 ,he attend primary school there and high school ,he is passianate about software development and he is the one who developed me "
+  } else if (message.includes("where is your developer from")) {
+    response = "Phuti Matooane is a 25-year-old developer who grew up in the dusty streets of Sebokeng in a township called Zone 7. He attended primary and high school there. He is passionate about software development and created me!";
   } else {
     response = "Hmm... I didn't catch that. Can you try rephrasing it?";
   }
