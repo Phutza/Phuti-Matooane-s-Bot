@@ -48,7 +48,7 @@ function respond(message) {
   let response = "";
 
   if (message.includes("who made you") || message.includes("developer")) {
-    response = `I was developed by Phuti Matooane using HTML, CSS, and JavaScript. <a href="https://phutza.github.io/My-portfolio/" target="_blank">Visit my portfolio</a>`;
+    response = `I was developed by Phuti Matooane using HTML, CSS, and JavaScript.Phuti Matooane is a 25-year-old aspiring software developer who grew up in the dusty streets of Sebokeng in a township called Zone 7. He attended primary and high school there. He is passionate about software development and created me!"; <a href="https://phutza.github.io/My-portfolio/" target="_blank">Visit my developer's portfolio</a>`;
   } else if (
     message.includes("tell me about your developer") ||
     message.includes("about your developer")
